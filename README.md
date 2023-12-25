@@ -1,4 +1,4 @@
-# Ex09 Event Registration Web Application
+# Event Registration Web Application
 
 ## NAME :  H. AARON
 ## REFERENCE NUMBER : 23012368

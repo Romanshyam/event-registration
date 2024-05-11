@@ -1,7 +1,5 @@
 # Event Registration Web Application
 ## DATE:
-## NAME :  Shyam Kumar E
-## REFERENCE NUMBER : 212223230207
 ## AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -34,6 +32,8 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
+## Name:Shyam Kumar E
+## Register Number: 212223230207
 ```
 Home Page
 

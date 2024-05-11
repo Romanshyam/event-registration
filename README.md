@@ -1,7 +1,7 @@
 # Event Registration Web Application
-## DATE: 16.12.2023
-## NAME :  H. AARON
-## REFERENCE NUMBER : 23012368
+## DATE:
+## NAME :  Shyam Kumar E
+## REFERENCE NUMBER : 212223230207
 ## AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -193,8 +193,5 @@ color: #15DDE9;
 
 ## OUTPUT:
 ![out1](out1.png)
-![out2](out2.png)
-![out3](out3.png)
-![out4](out4.png)
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.

@@ -1,5 +1,6 @@
-# Event Registration Web Application
-## DATE:
+# Ex09 Event Registration Web Application
+## Date:
+
 ## AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -32,166 +33,122 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-## Name:Shyam Kumar E
-## Register Number: 212223230207
 ```
-Home Page
+Home page
 
-<div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 360px; height: 640px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/360x640" />
-    <div style="width: 360px; height: 640px; left: 0px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0.40)"></div>
-    <div style="width: 360px; height: 59px; left: 0px; top: 9px; position: absolute; background: #FEF7F7"></div>
-    <img style="width: 347px; height: 48px; left: 6px; top: 14px; position: absolute" src="https://via.placeholder.com/347x48" />
-    <div style="width: 193px; height: 159px; left: 83px; top: 171px; position: absolute; text-align: center; color: #18E9DC; font-size: 44px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">TECNO FEST 2K23</div>
-    <div style="width: 227px; height: 54px; left: 69px; top: 391px; position: absolute; background: #DA2C6B; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px black solid"></div>
-    <div style="width: 227px; height: 54px; left: 69px; top: 498px; position: absolute; background: #18E9E9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px black solid"></div>
-    <div style="width: 204px; height: 35px; left: 79px; top: 402px; position: absolute; text-align: center; color: white; font-size: 29px; font-family: Lakki Reddy; font-weight: 400; word-wrap: break-word">LOGIN</div>
-    <div style="width: 204px; height: 35px; left: 78px; top: 507px; position: absolute; text-align: center; color: white; font-size: 29px; font-family: Lakki Reddy; font-weight: 400; word-wrap: break-word">REGISTER</div>
+<div style="width: 100%; height: 100%; position: relative; background: #14EDD3">
+    <img style="width: 354px; height: 42px; left: 3px; top: 13px; position: absolute" src="https://via.placeholder.com/354x42" />
+    <img style="width: 1px; height: 4px; left: 163px; top: 96px; position: absolute" src="https://via.placeholder.com/1x4" />
+    <img style="width: 237px; height: 237px; left: 62px; top: 69px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/237x237" />
+    <div style="width: 229px; height: 95px; left: 70px; top: 382px; position: absolute; background: #33D818; box-shadow: 4px 4px 4px; filter: blur(4px)"></div>
+    <div style="width: 203px; height: 69px; left: 84px; top: 393px; position: absolute; color: #5C17EE; font-size: 32px; font-family: Inter; font-weight: 800; word-wrap: break-word">  NEW YEAR<br/>      EVENT</div>
+    <div style="width: 215px; height: 48px; left: 77px; top: 539px; position: absolute; background: #1034ED; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset"></div>
+    <div style="width: 191px; height: 30px; left: 96px; top: 548px; position: absolute; color: #F71414; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">     REGISTER</div>
 </div>
 
-// TECNO FEST 2K23
-color: #18E9DC;
- font-size: 44px;
- font-family: Irish Grover;
- font-weight: 400;
- word-wrap: break-word
----
-// LOGIN
-color: white;
- font-size: 29px;
- font-family: Lakki Reddy;
- font-weight: 400;
- word-wrap: break-word
----
-// REGISTER
-color: white;
- font-size: 29px;
- font-family: Lakki Reddy;
- font-weight: 400;
- word-wrap: break-word
-
- Registration Page
-
- <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 889px; height: 640px; left: -14px; top: 0px; position: absolute" src="https://via.placeholder.com/889x640" />
-    <div style="width: 360px; height: 640px; left: 0px; top: 0px; position: absolute; background: rgba(2.18, 2.15, 2.15, 0.65)"></div>
-    <div style="width: 360px; height: 57px; left: 0px; top: 9px; position: absolute; background: #FFFEFE"></div>
-    <img style="width: 347px; height: 48px; left: 6px; top: 13px; position: absolute" src="https://via.placeholder.com/347x48" />
-    <div style="width: 318px; height: 40px; left: 20px; top: 98px; position: absolute; color: white; font-size: 32px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">EVENT REGISTRATION</div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 165px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 214px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 263px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 312px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 361px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 410px; position: absolute; background: white"></div>
-    <div style="width: 273px; height: 31px; left: 42px; top: 459px; position: absolute; background: white"></div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 173px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Full Name</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 219px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Register no</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 269px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Gender</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 320px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Department</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 367px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Mobile</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 419px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Email ID</div>
-    <div style="width: 180px; height: 20px; left: 53px; top: 467px; position: absolute; color: black; font-size: 13px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Event to register</div>
-    <div style="width: 227px; height: 54px; left: 66px; top: 527px; position: absolute; background: #84D037; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px black solid"></div>
-    <div style="width: 204px; height: 35px; left: 77px; top: 538px; position: absolute; text-align: center; color: white; font-size: 29px; font-family: Lakki Reddy; font-weight: 400; word-wrap: break-word">SUBMIT</div>
-</div>
-
-// EVENT REGISTRATION
-color: white;
+//   NEW YEAR<br/>      EVENT
+color: #5C17EE;
  font-size: 32px;
- font-family: Irish Grover;
- font-weight: 400;
+ font-family: Inter;
+ font-weight: 800;
  word-wrap: break-word
 ---
-// Full Name
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Register no
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Gender
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Department
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Mobile
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Email ID
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// Event to register
-color: black;
- font-size: 13px;
- font-family: Imprima;
- font-weight: 400;
- word-wrap: break-word
----
-// SUBMIT
-color: white;
- font-size: 29px;
- font-family: Lakki Reddy;
- font-weight: 400;
+//      REGISTER
+color: #F71414;
+ font-size: 24px;
+ font-family: Inter;
+ font-weight: 800;
  word-wrap: break-word
 
- Thank you Page
+ Page 2
 
- <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 360px; height: 640px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/360x640" />
-    <div style="width: 360px; height: 640px; left: 0px; top: 0px; position: absolute; background: rgba(8.31, 8.31, 8.31, 0.65)"></div>
-    <div style="width: 360px; height: 57px; left: 0px; top: 9px; position: absolute; background: #FFFEFE"></div>
-    <img style="width: 347px; height: 48px; left: 2px; top: 13px; position: absolute" src="https://via.placeholder.com/347x48" />
-    <div style="width: 252px; height: 169px; left: 54px; top: 182px; position: absolute; text-align: center"><span style="color: #B3E918; font-size: 38px; font-family: Lilita One; font-weight: 400; word-wrap: break-word">THANK YOU FOR REGISTERING.<br/></span><span style="color: #15DDE9; font-size: 38px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word"><br/> </span><span style="color: #15DDE9; font-size: 38px; font-family: Kaushan Script; font-weight: 400; word-wrap: break-word">We’re Excited to have you On Board.</span></div>
+ <div style="width: 100%; height: 100%; position: relative; background: #15ECF9">
+    <div style="width: 307px; height: 53px; left: 29px; top: 24px; position: absolute; background: #F9F00D"></div>
+    <div style="width: 244px; height: 28px; left: 58px; top: 39px; position: absolute; color: #1E0CEE; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">     NEW YEAR EVENTS</div>
+    <img style="width: 275px; height: 169px; left: 53px; top: 96px; position: absolute; backdrop-filter: blur(4px)" src="https://via.placeholder.com/275x169" />
+    <div style="width: 242px; height: 287px; left: 79px; top: 307px; position: absolute; background: #F57B0A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
+    <div style="width: 209px; height: 274px; left: 101px; top: 320px; position: absolute; color: #0D4AE8; font-size: 32px; font-family: Inter; font-weight: 800; word-wrap: break-word">  1.DANCE<br/> 2.MUSIC<br/> 3.ART<br/> 4.HUNT OF<br/> TREASURE<br/> 5.MUSICAL<br/>       CHAIRS<br/></div>
 </div>
 
-// THANK YOU FOR REGISTERING.<br/>
-color: #B3E918;
- font-size: 38px;
- font-family: Lilita One;
- font-weight: 400;
+//      NEW YEAR EVENTS
+color: #1E0CEE;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
  word-wrap: break-word
 ---
-// <br/> 
-color: #15DDE9;
- font-size: 38px;
- font-family: Irish Grover;
- font-weight: 400;
+//   1.DANCE<br/> 2.MUSIC<br/> 3.ART<br/> 4.HUNT OF<br/> TREASURE<br/> 5.MUSICAL<br/>       CHAIRS<br/>
+color: #0D4AE8;
+ font-size: 32px;
+ font-family: Inter;
+ font-weight: 800;
  word-wrap: break-word
----
-// We’re Excited to have you On Board.
-color: #15DDE9;
- font-size: 38px;
- font-family: Kaushan Script;
- font-weight: 400;
- word-wrap: break-word
-```
 
+ Page 3
+
+ <div style="width: 100%; height: 100%; position: relative; background: #FE0C0C">
+    <div style="width: 325px; height: 105px; left: 14px; top: 26px; position: absolute; background: #09F84C; box-shadow: 4px 4px 4px; filter: blur(4px)"></div>
+    <div style="width: 303px; height: 105px; left: 36px; top: 37px; position: absolute; color: #F406EB; font-size: 32px; font-family: Inter; font-weight: 800; word-wrap: break-word">EVENT REGISTRATION </div>
+    <div style="width: 314px; height: 59px; left: 25px; top: 150px; position: absolute; background: #F5F5F5"></div>
+    <div style="width: 291px; height: 39px; left: 40px; top: 160px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">NAME:</div>
+    <div style="width: 309px; height: 54px; left: 30px; top: 241px; position: absolute; background: #F5F5F5"></div>
+    <div style="width: 264px; height: 29px; left: 52px; top: 252px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">DEPARTMENT:</div>
+    <div style="width: 289px; height: 98px; left: 39px; top: 428px; position: absolute; background: #F5F5F5"></div>
+    <div style="width: 262px; height: 65px; left: 51px; top: 438px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">EVENT INTERESTED:</div>
+    <div style="width: 295px; height: 82px; left: 36px; top: 327px; position: absolute; background: #F5F5F5"></div>
+    <div style="width: 247px; height: 59px; left: 40px; top: 337px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">REFERENCE NUMBER:</div>
+    <div style="width: 294px; height: 90px; left: 45px; top: 537px; position: absolute; background: #17F920; border-radius: 9999px"></div>
+    <div style="width: 227px; height: 41px; left: 89px; top: 555px; position: absolute; color: black; font-size: 22px; font-family: Inter; font-weight: 800; word-wrap: break-word">COME AND ENJOY      THE NEW YEAR</div>
+</div>
+
+// EVENT REGISTRATION 
+color: #F406EB;
+ font-size: 32px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// NAME:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// DEPARTMENT:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// EVENT INTERESTED:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// REFERENCE NUMBER:
+color: black;
+ font-size: 20px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+---
+// COME AND ENJOY      THE NEW YEAR
+color: black;
+ font-size: 22px;
+ font-family: Inter;
+ font-weight: 800;
+ word-wrap: break-word
+
+```
 ## OUTPUT:
-![out1](out1.png)
+![Screenshot 2024-05-11 091354](https://github.com/Romanshyam/event-registration/assets/123962992/8235d9ff-793c-41a9-ae0b-66700cf3ea19)
+
+
+
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
+
